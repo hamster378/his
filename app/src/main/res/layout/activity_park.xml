@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".park"
+    android:background="@drawable/fon">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="308dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="11dp"
+        android:text="Мунго Парк — шотландский врач и путешественник"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="156dp"
+        android:layout_height="171dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/park" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="309dp"
+        android:layout_height="326dp"
+        android:layout_marginBottom="56dp"
+        android:background="#FFFFFFFF"
+        android:text="Шотландский путешественник Мунго Парк вошёл в историю как один из первых исследователей африканской реки Нигер, которая вплоть до конца XVIII века оставалась загадкой для европейцев.
+Мунго Парк стал путешественником не сразу. Окончив Эдинбургский университет, он получил образование хирурга. Но будучи сыном фермера, Мунго Парк всегда интересовался ботаникой. Благодаря знакомству с натуралистом и президентом Королевского общества Джозефом Бэнксом, молодому исследователю удалось принять участие в своём первом путешествии в Индонезию. Научный доклад, с которым Мунго Парк выступил по окончании поездки перед британским научным обществом, произвёл такой эффект, что его пригласили возглавить экспедицию в Западную Африку."
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

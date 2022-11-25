@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kob"
+    android:background="@drawable/fon">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Адмирал Якоб Роггевен"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="176dp"
+        android:layout_height="202dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/louis" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="324dp"
+        android:layout_height="295dp"
+        android:layout_marginBottom="3dp"
+        android:background="#FFFFFFFF"
+        android:text="Якоб Роггевен (нидерл. Jacob Roggeveen, январь 1659, Мидделбург — 31 января 1729) — нидерландский мореплаватель, наиболее известен тем, что открыл остров Пасхи.
+
+В 1721 году получил задание от Вест-Индской компании исследовать Тихий океан к западу от Чили, так как предполагалось, что там находится большая земля. 6 апреля 1722 года утром, в Пасхальное воскресенье, открыл новый остров. Традиции того времени предполагали называть новые земли в честь религиозного праздника в день их открытия. Так на карте появился остров Пасхи.
+
+В 1721—1722 годах Роггевен также открыл несколько крупных атоллов в архипелаге Туамоту, а также острова Мануа, Тутуила и Уполу в архипелаге Самоа. В 1723 году возвратился в Нидерланды. При возвращении в Европу он попутно обследовал Фолклендские острова, пройдя проливом Ле-Мер, разделяющим острова Огненная Земля и Эстадос.
+
+Роггевен один из первых вошёл в современный Южный океан, перейдя в Тихоокеанском секторе отметку 60° южной широты. "
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
